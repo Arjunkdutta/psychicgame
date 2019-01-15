@@ -1,0 +1,37 @@
+{
+    margin: 0;
+}
+
+html,
+body {
+    color: #27282B;
+    font-size: 18px;
+    line-height: 34px;
+    font-family: 'Arial';
+    height: 100%;
+}
+
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -4em;
+}
+
+#game {
+    margin-top: 2em;
+    z-index: 1;
+    text-align: left;
+}
+
+#container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    clear: both;
+}
+.footer,
+.push {
+    height: 4em;
+    text-align: center;
+}
